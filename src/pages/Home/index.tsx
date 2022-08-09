@@ -32,7 +32,9 @@ export function Home() {
     },
   })
 
-  function handleCreateNewCycle(data) {}
+  function handleCreateNewCycle(data) {
+    reset()
+  }
 
   const task = watch('task')
   const isSubmitDisabled = !task
